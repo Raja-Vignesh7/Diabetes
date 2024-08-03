@@ -8,9 +8,10 @@
     <title>Diabetes</title>
 </head>
 <body>
+    <div class="Title">Diabetes Prediction</div>
     <div class="Input_container">
         <label for="name">name: </label>
-        <input type="text" calss="inputName" name="name" id="name" >
+        <input type="text" class="inputName" name="name" id="name" >
         <br>
         <label for="age">Age: </label>
         <input type="number" class="input_Age" name="age" id="age">
@@ -23,9 +24,27 @@
         <br>
         <label for="BloodPressure">BloodPressure: </label>
         <input type="number" class="input_BP" name="BloodPressure" id="BloodPressure">
-        
+        <br>
+        <label for="Pregnancies">No of Pregnancies:</label>
+        <input type="number" class="inputPregnancies" name="Pregnancies" id="Pregnancies">
+        <br>
+        <label for="Glucose">Glucose &nbsp; levels :</label>
+        <input type="number" class="inputGlucose" name="Glucose" id="Glucose">
+        <br>
+        <label for="DBF">DiabetesPedigreeFunction: </label>
+        <input type="number" class="inputDBF" name="DBF" id="DBF">
+        <br>
+        <label for="Skinthickness">Skinthickness: </label>
+        <input type="number" class="inputSKT" name="Skinthickness" id="Skinthickness">
+        <br>
+        <label for="insulin">Insulin: </label>
+        <input type="number" class="inputInsulin" name="insulin" id="insulin">
     </div>
-    <div class="Output" id="Output_container"></div>
+    <div class="Output" id="Output_container">
+        <div class="outputHedder">
+            Output
+        </div>
+    </div>
     <script src="../static/js/scripts.js"></script>
 </body>
 </html>
