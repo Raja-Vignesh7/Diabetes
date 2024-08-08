@@ -7,7 +7,7 @@ import base64
 
 
 class Model:
-    def Predicit(self,L):
+    def Predicit(L):
         DB = {0:"NO DB" , 1:"DB"}
         model = joblib.load("./server/Diabetes.joblib")
         result = model.predict_proba(L)
@@ -15,7 +15,7 @@ class Model:
         return result
 
 class image_Result:
-    def get_image(self , value):
+    def get_image( value):
         color=""
         title = ""
         if value<0.34:
