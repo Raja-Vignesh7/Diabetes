@@ -27,7 +27,7 @@ async function postInput() {
 
         const data = await response.json();
         const imgSrc = `data:image/png;base64,${data.image}`;   
-        document.getElementById("Output").innerText = 'Severity: ' + data.predicate;
+        document.getElementById("Output").innerText = 'Severity: ' + data.predicate+'%';
         // document.getElementById("Image").scr = imgsrc;
         img = document.createElement('img');
         img.src = imgSrc;

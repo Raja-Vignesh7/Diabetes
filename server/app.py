@@ -28,7 +28,7 @@ def predict_probability():
         print(predicate[0][1])
         image = image_Result.get_image(predicate[0][1])
         img_str = base64.b64encode(image.getvalue()).decode('utf-8')
-        return jsonify({'predicate': predicate[0][1] , 'image': img_str})
+        return jsonify({'predicate': predicate[0][1]*100 , 'image': img_str})
     except Exception as e:
         print("error: ", str(e))
         return jsonify({'error': str(e)}), 500

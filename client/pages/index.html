@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../static/utils/diabeties_icon1.png" type="image/x-icon">
     <link rel="stylesheet" href="../static/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Diabetes</title>
@@ -10,6 +11,7 @@
 <body>
     <div class="Title">Diabetes Prediction for Women</div>
     <div class="Input_container">
+        <h3>Fill details</h3>
         <label for="name">name: </label>
         <input type="text" class="inputName" name="name" id="name" >
         <br>
@@ -39,7 +41,8 @@
         <br>
         <label for="insulin">Insulin: </label>
         <input type="number" class="inputInsulin" name="insulin" id="insulin">
-        <button onclick="Submit()">Submit</button>
+        <br>
+        <button class="Submit" onclick="Submit()">Submit</button>
     </div>
     <div class="Output" id="Output_container">
         <div class="outputHedder">
