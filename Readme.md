@@ -39,12 +39,16 @@ project/
 |           |— diabeties_icon1.png  # Icon
 |— server/
 |   |— Diabetes.joblib       # Trained ML model
-|— app.py                    # Flask server
-|— main.py                   # Prediction logic and visualization
+|   |— app.py                    # Flask server
+|   |— main.py                   # Prediction logic and visualization
+|— Diabetes.ipynb
+|— requirements.txt
+|— Readme.md
 ```
 
 ---
-
+## Dataset Link 
+    [pima-indians-diabetes-database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 ## Installation and Setup
 
 ### Prerequisites
