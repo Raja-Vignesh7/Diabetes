@@ -48,7 +48,7 @@ project/
 
 ---
 ## Dataset Link 
-    [pima-indians-diabetes-database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
+    https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
 ## Installation and Setup
 
 ### Prerequisites
